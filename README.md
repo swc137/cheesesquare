@@ -1,8 +1,20 @@
+补充说明
+===================================
+>**Note:**
+> - How to Use Custom Behavior in CoordinatorLayout
+> - How to Use Custom View in CoordinatorLayout
+
+Screenshot
+-------------
 ![PNG](https://raw.githubusercontent.com/xiongwei-git/cheesesquare/master/art/cheese.png)  
 ![GIF](https://raw.githubusercontent.com/xiongwei-git/cheesesquare/master/art/cheesequaregif.gif)  
+
+-------------------
+
 ![alt text](https://raw.githubusercontent.com/chrisbanes/cheesesquare/master/art/icon.png)
 Cheesesquare Sample
 ===================================
+
 
 Demos the new Android Design library. This is not an exhaustive sample, but shows
 some of the important features in the Design library:
