@@ -18,16 +18,19 @@ package com.support.android.designlibdemo;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.design.widget.AppBarLayout;
 import android.support.design.widget.CollapsingToolbarLayout;
+import android.support.design.widget.CoordinatorLayout;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
-import android.view.MenuItem;
+import android.view.View;
+import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
-
-import java.util.Random;
 
 public class CheeseDetailActivity extends AppCompatActivity {
 
@@ -48,6 +51,35 @@ public class CheeseDetailActivity extends AppCompatActivity {
         CollapsingToolbarLayout collapsingToolbar =
                 (CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar);
         collapsingToolbar.setTitle(cheeseName);
+
+        AppBarLayout appBarLayout = (AppBarLayout)findViewById(R.id.appbar);
+        CoordinatorLayout.LayoutParams layoutParams = new CoordinatorLayout.LayoutParams(CoordinatorLayout.LayoutParams.MATCH_PARENT,
+                700);
+        appBarLayout.setLayoutParams(layoutParams);
+
+        //ImageView imageView = (ImageView)findViewById(R.id.image_view);
+
+
+//        FloatingActionButton actionButton = (FloatingActionButton)findViewById(R.id.float_button);
+//        actionButton.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Toast.makeText(CheeseDetailActivity.this,"Click",Toast.LENGTH_SHORT).show();
+//            }
+//        });
+
+        CoordinatorLayout coordinatorLayout = (CoordinatorLayout)findViewById(R.id.main_content);
+        coordinatorLayout.setOnHierarchyChangeListener(new ViewGroup.OnHierarchyChangeListener() {
+            @Override
+            public void onChildViewAdded(View parent, View child) {
+
+            }
+
+            @Override
+            public void onChildViewRemoved(View parent, View child) {
+
+            }
+        });
 
         loadBackdrop();
     }
