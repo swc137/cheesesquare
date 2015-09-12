@@ -1,6 +1,6 @@
+![PNG](https://raw.githubusercontent.com/xiongwei-git/cheesesquare/master/art/cheese.png)  
+![GIF](https://raw.githubusercontent.com/xiongwei-git/cheesesquare/master/art/cheesequaregif.gif)  
 ![alt text](https://raw.githubusercontent.com/chrisbanes/cheesesquare/master/art/icon.png)
-![PNG](https://raw.githubusercontent.com/xiongwei-git/cheesesquare/master/art/cheese.png)
-![GIF](https://raw.githubusercontent.com/xiongwei-git/cheesesquare/master/art/cheesequaregif.gif)
 Cheesesquare Sample
 ===================================
 
